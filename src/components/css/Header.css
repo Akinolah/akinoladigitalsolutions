@@ -1,0 +1,59 @@
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* .header-container > * {
+  z-index: 10;
+  /* position: relative; *
+} */
+
+.page-header-content {
+  position: absolute;
+  width: 100%;
+  /* Ensure it's positioned */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+}
+
+/* Add these styles to Header.css */
+.text-orange {
+  color: #FFA500;
+  /* Orange color */
+  font-weight: bold;
+  /* Bold text */
+}
+
+.text-white {
+  color: #FFFFFF;
+  /* White color */
+  font-weight: bold;
+  /* Bold text */
+}
+
+.breadcrumb {
+  background-color: transparent;
+  /* Remove default background */
+  padding: 0.75rem 1rem;
+  /* Add some padding */
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #FFFFFF;
+  /* Change breadcrumb separator color to white */
+}
+
+.display-4 {
+  font-weight: bold;
+  /* Ensure the main heading is bold */
+}
+
+.lead {
+  font-weight: bold;
+  /* Ensure the lead paragraph is bold */
+}

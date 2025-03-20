@@ -1,0 +1,28 @@
+:root {
+    --dark-gray: #2C3E50;
+    --white: #FFFFFF;
+    --orange: #FF851B;
+    --light-blue: #00B4D8;
+}
+
+/* Base Styles */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.hero-swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}

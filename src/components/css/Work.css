@@ -1,0 +1,57 @@
+.work {
+    padding: 100px 0;
+}
+
+.work-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.work-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.work-img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.work-img {
+    transition: transform 0.3s ease;
+}
+
+.work-card:hover .work-img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.work-card:hover .overlay {
+    opacity: 1;
+}
+
+.work-text {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.work-card:hover .work-text {
+    opacity: 1;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}

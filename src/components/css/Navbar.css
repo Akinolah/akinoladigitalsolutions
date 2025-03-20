@@ -1,0 +1,47 @@
+/* Base Navbar Styles */
+.navbar {
+    background: rgba(var(--navy-blue), 0.9);
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(2px);
+}
+
+.nav-transparent {
+    background: rgba(var(--navy-blue), 0.4) !important;
+}
+
+.nav-scrolled {
+    background: var(--charcoal-gray) !important;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px);
+    background-color: #333333 !important;
+    transition: background-color 0.3s ease;
+}
+
+/* Social media link hover effect */
+.social-link {
+    margin: 0 10px;
+    padding: 8px;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link:hover {
+    color: #2ECC71 !important;
+    transform: scale(1.2);
+}
+
+/* Navigation link hover effect */
+.nav-link.hover-underline:hover {
+  color: #ff851b !important; /* Orange on hover */
+  transition: color 0.3s ease;
+}
+
+/* Ensure the navbar stays fixed at the top */
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    /* Ensure it stays above other content */
+}
