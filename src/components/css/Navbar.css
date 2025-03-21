@@ -17,6 +17,10 @@
     transition: background-color 0.3s ease;
 }
 
+.navbar-toggler-icons {
+    color: #2ecc71;
+}
+
 /* Social media link hover effect */
 .social-link {
     margin: 0 10px;
